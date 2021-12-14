@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '1_implicit_animations/gesture_page.dart';
 import '1_implicit_animations/implicit_animations_page.dart';
+import '1_implicit_animations/timer_page.dart';
 // import '2_hero/hero_page.dart';
 // import '3_controller_animations/controlled_animations_page.dart';
 
@@ -28,6 +30,24 @@ class MyApp extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => ImplicitAnimationsPage(),
+                  ),
+                ),
+              ),
+              ListTile(
+                title: Text('1 - Timer Implicit Animations'),
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => TimerPage(),
+                  ),
+                ),
+              ),
+              ListTile(
+                title: Text('1 - Gesture Implicit Animations'),
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => GesturePage(),
                   ),
                 ),
               ),

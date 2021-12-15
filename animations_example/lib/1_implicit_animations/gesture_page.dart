@@ -22,7 +22,7 @@ class _GesturePageState extends State<GesturePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Implicit Animations')),
+      appBar: AppBar(title: Text('Animações implícitas: Gestos')),
       body: ClipRect(
         child: AnimatedAlign(
           heightFactor: 0.6,

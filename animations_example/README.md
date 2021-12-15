@@ -1,6 +1,6 @@
-# Flutter Animations
-Project created in live-code with members from company [1234](http://www.1234.com/).
-The goal was show the creation and how implicit and controlled animations work.
+# Flutter: Animações
+Projeto criado em tempo real com os aludos da primeira edição do [Flutterando Masterclass](https://masterclass.flutterando.com.br/).
+O objetivo é mostrar como funcionam as animações implícitas e controladas.
 
 ## Getting Started
 A few resources to get you started if this is your first Flutter project:

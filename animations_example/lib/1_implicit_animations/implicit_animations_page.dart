@@ -14,7 +14,7 @@ class _ImplicitAnimationsPageState extends State<ImplicitAnimationsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Implicit Animations')),
+      appBar: AppBar(title: Text('Animações implícitas')),
       body: AnimatedAlign(
         duration: duration,
         alignment: isExpanded ? Alignment.center : Alignment.bottomCenter,

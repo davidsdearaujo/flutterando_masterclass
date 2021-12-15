@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import '1_implicit_animations/gesture_page.dart';
 import '1_implicit_animations/implicit_animations_page.dart';
 import '1_implicit_animations/timer_page.dart';
-// import '2_hero/hero_page.dart';
-// import '3_controller_animations/controlled_animations_page.dart';
+import '2_controlled_animations/controlled_animations_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
           body: Column(
             children: [
               ListTile(
-                title: Text('1 - Implicit Animations'),
+                title: Text('1 - Animações implícitas'),
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('1 - Timer Implicit Animations'),
+                title: Text('1 - Animações implícitas: Timer'),
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -43,7 +42,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('1 - Gesture Implicit Animations'),
+                title: Text('1 - Animações implícitas: Gestos'),
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -51,22 +50,15 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              // ListTile(
-              //   title: Text('2 - Hero'),
-              //   onTap: () => Navigator.push(
-              //     context,
-              //     MaterialPageRoute(builder: (context) => HeroPage()),
-              //   ),
-              // ),
-              // ListTile(
-              //   title: Text('3 - Controlled Animations'),
-              //   onTap: () => Navigator.push(
-              //     context,
-              //     MaterialPageRoute(
-              //       builder: (context) => ControlledAnimationsPage(),
-              //     ),
-              //   ),
-              // ),
+              ListTile(
+                title: Text('2 - Animações Controladas'),
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ControlledAnimationsPage(),
+                  ),
+                ),
+              ),
             ],
           ),
         );

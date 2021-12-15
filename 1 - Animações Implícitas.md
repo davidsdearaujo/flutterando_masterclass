@@ -10,3 +10,14 @@ Crie um botão redondo que fique posicionado no canto inferior direito. Ele deve
     - mudar sua posição para a parte superior central;
     
 https://user-images.githubusercontent.com/16373553/146085271-8c76dd19-1064-457c-873b-1ad6af26034c.mov
+
+## Exercício 2
+Recriar o componente `ExpansionTile` [[doc]](https://api.flutter.dev/flutter/material/ExpansionTile-class.html) utilizando apenas animações implícitas.
+
+### Dicas:
+ - Utilizar `AnimatedRotation` [[doc]](https://api.flutter.dev/flutter/widgets/AnimatedRotation-class.html) para girar o ícone;
+ - Utilizar propriedade `heighFactor` [[doc]](https://api.flutter.dev/flutter/widgets/AnimatedAlign/heightFactor.html) do widget `AnimatedAlign`[[doc]](https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html) para fazer o efeito de aumentar e diminuir o tamanho dos filhos;
+ - Veja no código do próprio componente `ExpansionTile` como ele faz essa função;
+ 
+
+![desafio_1](https://user-images.githubusercontent.com/16373553/146072351-df53fc18-d6b7-487c-8b6f-3b0129fc5c5f.gif)

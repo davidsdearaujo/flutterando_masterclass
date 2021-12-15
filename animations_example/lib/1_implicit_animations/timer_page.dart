@@ -38,7 +38,7 @@ class _TimerPageState extends State<TimerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Implicit Animations')),
+      appBar: AppBar(title: Text('Animações implícitas: Timer')),
       body: AnimatedAlign(
         duration: duration,
         alignment: isExpanded ? Alignment.center : Alignment.bottomCenter,
